@@ -1,6 +1,6 @@
 pkgbase = python-pyjwt
 	pkgdesc = JSON Web Token implementation in Python
-	pkgver = 2.7.0
+	pkgver = 2.8.0
 	pkgrel = 1
 	url = https://github.com/jpadilla/pyjwt
 	arch = any
@@ -13,7 +13,7 @@ pkgbase = python-pyjwt
 	makedepends = python-setuptools
 	makedepends = python-wheel
 	depends = python
-	source = git+https://github.com/jpadilla/pyjwt.git#tag=d7c54dbebdab2ae17f7948fd4432b15e1bb82852
+	source = git+https://github.com/jpadilla/pyjwt.git#tag=72ad55f6d7041ae698dc0790a690804118be50fc
 	b2sums = SKIP
 
 pkgname = python-pyjwt
