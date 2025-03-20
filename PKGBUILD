@@ -103,10 +103,10 @@ package() {
     -m \
       installer \
     --destdir="${pkgdir}" \
-    "${_pkg}/dist/"*".whl"
+    "dist/"*".whl"
   install \
     -Dm644 \
-    "${_pkg}/LICENSE" \
+    "LICENSE" \
     -t \
     "${pkgdir}/usr/share/licenses/${pkgname}/"
 }
